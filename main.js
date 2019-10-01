@@ -3,31 +3,31 @@
  *   - getElementByIdを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const idTitle = document.getElementById('title');
-console.log(idTitle);
+const titleElement = document.getElementById('title');
+console.log(titleElement);
 
 /**
  * 課題2: id値が 'item-container' の要素を取得する
  *   - querySelectorを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const idItem_Container = document.querySelector('#item-container');
-console.log(idItem_Container);
+const itemContainerElement = document.querySelector('#item-container');
+console.log(itemContainerElement);
 
 /**
  * 課題3: li要素を全て取得する
  *   - console.logで取得したDOMの中身を確認する
  */
-const li = document.getElementsByTagName('li');
-console.log(li);
+const liElements = document.getElementsByTagName('li');
+console.log(liElements);
 
 /**
  * 課題4: class値が 'item' の要素を全て取得する
  *   - getElementsByClassNameを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const classItem = document.getElementsByClassName('item');
-console.log(classItem);
+const classItems = document.getElementsByClassName('item');
+console.log(classItems);
 
 /**
  * 課題5: class値が 'item' の要素を全て取得する
